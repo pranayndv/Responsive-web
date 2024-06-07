@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width : 737px) {
+    .navbar {
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 1s ease-out;
+
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .nav-item {
+        padding: 3px;
+    }
+
+    .right-nav {
+        margin: auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        margin: 0 5px;
+        cursor: pointer;
+
+    }
+
+    .line {
+        margin: 2px;
+        background-color: white;
+        height: 2px;
+        width: 20px;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .nav-v-opacity {
+        opacity: 0;
+    }
+
+    .nav-h {
+        height: 50px;
+    }
+
+    .bg-text {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;
+    }
+
+    .second-half {
+        width: 40%;
+    }
+    .second-half img {
+        width: 81%;
+        margin: 27px 31px;
+        position: relative;
+        top: 23px;
+    }      
+
+    .sm-text {
+        color: white;
+        width: 100px;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .secImg {
+        height: 174px;
+        margin: 10px 10px;
+        border: 2px solid black;
+        border-radius: 160px;
+        width: 181px;
+        display: block;
+        margin: auto;
+    }
+
+    .form {
+        width: 81vw;
+    }
+
+    .contact {
+        font-size: 21px;
+    }
+
+    .foot-content {
+        font-size: 9px;
+    }
+
+    .txt-al {
+        text-align: justify;
+    }
+
+    .bg-text {
+        text-align: center;
+    }
+
+    .b-text {
+        position: relative;
+        left: 85px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 23px;
+    }
+
+    .buttons {
+        width: 200px;
+        height: 20px;
+        text-align: center;
+        position: relative;
+        left: 60px;
+    }
+}
